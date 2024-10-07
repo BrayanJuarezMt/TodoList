@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class='container'>
+        <header class='header'>
+            <h1>Todo List</h1>
+        </header>
+    
+        <section class='todo-input-section'>
+            <div class='todo-input-wrapper'>
+                <input type='text' id='todo-input' placeholder='Por favor ingresa una tarea' />
+                <button onclick="addTask()" id='add-button'>Add</button>
+            </div>
+        </section>
+        
+    
+        <section class='todo-list-section'>
+            <ul id='todo-list'>
+               
+            </ul>
+        </section>
+    </div>
+    <script src="todoList.js"></script>
+</body>
+</html>
